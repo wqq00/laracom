@@ -6,7 +6,7 @@ import (
 	"context"
 	"log"
 	"os"
-	pb "laracom/user-service/proto/user"
+	pb "github.com/wqq00/laracom/user-service/proto/user"
 )
 
 func main()  {
