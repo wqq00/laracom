@@ -2,8 +2,6 @@ module github.com/wqq00/laracom/user-service
 
 go 1.14
 
-replace google.golang.org/grpc => google.golang.org/grpc v1.26.0
-
 require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/golang/protobuf v1.4.2
@@ -13,5 +11,3 @@ require (
 	golang.org/x/crypto v0.0.0-20200709230013-948cd5f35899
 	golang.org/x/net v0.0.0-20200707034311-ab3426394381
 )
-
-replace github.com/wqq00/laracom/user-service => /Users/wangqi/go/src/microservice/demo/src/laracom/user-service
